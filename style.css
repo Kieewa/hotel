@@ -1,0 +1,45 @@
+body {
+	background-image: url("img/tło.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.oferta{
+	margin: 305px auto;
+	text-align: center;
+	height: 200px;
+	color: white;
+	font-size: 75px;
+}
+
+.block{
+	height: 300px;
+	width:25%;
+	float: left;
+	text-align: center;
+
+}
+.sticky{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 9999;
+	width: 100%;
+}
+
+.tabela{
+	height: 700px;
+	margin: 300px auto;
+
+}
+table{ 
+	margin: 0 auto;
+	background-color: red;
+	border-collapse: collapse
+	border: 5px solid black;
+}
+td{
+	width: 400px;
+	border: 2px solid black;
+	font-weight: bold;
+}
